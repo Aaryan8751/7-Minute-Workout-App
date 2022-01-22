@@ -18,10 +18,18 @@ class MainActivity : AppCompatActivity() {
 
 //        val flStartButton : FrameLayout = findViewById(R.id.flStart)
         binding?.flStart?.setOnClickListener {
-
             intent = Intent(this,ExerciseActivity::class.java)
             startActivity(intent)
+        }
 
+        binding?.flBMI?.setOnClickListener {
+            intent = Intent(this,BMIActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding?.flHistory?.setOnClickListener {
+            intent = Intent(this,History::class.java)
+            startActivity(intent)
         }
 
     }
