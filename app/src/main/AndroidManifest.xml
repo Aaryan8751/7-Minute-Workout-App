@@ -16,6 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkoutApp">
         <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".BMIActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".finish"
             android:exported="false" />
         <activity

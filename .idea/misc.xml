@@ -6,14 +6,20 @@
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/action_done_drawable.xml" value="0.23958333333333334" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/circular_progress_bar.xml" value="0.2160367722165475" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/circular_progress_bar_grey.xml" value="0.14537037037037037" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/drawable_radio_group_tab_background.xml" value="0.21388888888888888" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.21388888888888888" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/drawable_units_tab_text_color_selector.xml" value="0.21388888888888888" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/item_circular_accent_border.xml" value="0.11944444444444445" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/item_circular_color_accent_backbround.xml" value="0.14537037037037037" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/item_circular_gray_background.xml" value="0.23958333333333334" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/item_circular_thin_color_accent_border.xml" value="0.21388888888888888" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.176" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/activity_bmiactivity.xml" value="0.264" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/activity_exercise.xml" value="0.2" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/activity_finish.xml" value="0.2" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/activity_history.xml" value="0.2" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/dialog_custom_back_confirmation.xml" value="0.264" />
         <entry key="..\:/PEC/Github_Repos/7-Minute-Workout-App/app/src/main/res/layout/item_exercise_status.xml" value="0.4" />
       </map>
     </option>
