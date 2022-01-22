@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finish">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFinish"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbarFinish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="END"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:id="@+id/finishImage"
+        android:layout_margin="10dp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        app:layout_constraintTop_toBottomOf="@id/tvEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/item_circular_accent_border"
+        android:scaleType="fitXY"
+        android:src="@drawable/action_done_drawable"
+        />
+
+    <TextView
+        android:id="@+id/congrats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/finishImage"
+        android:text="Congratulations!"
+        android:gravity="center"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/youhavedone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/congrats"
+        android:text="You have Completed the workout!"
+        android:gravity="center"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/youhavedone"
+        android:text="FINISH"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
